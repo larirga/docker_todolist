@@ -12,4 +12,4 @@ COPY ./ ./
 
 ADD ./node_modules.tar.gz ./
 
-CMD ["npm" "start"]
+ENTRYPOINT ["npm", "start"]
