@@ -8,7 +8,7 @@ COPY package.json .
 
 COPY package-lock.json .
 
-COPY . .
+COPY ./ ./
 
 ADD ./node_modules.tar.gz ./
 
